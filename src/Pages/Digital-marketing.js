@@ -9,25 +9,18 @@ import Loader from '../components/Loader';
 
 const DigitalMarketing = () => {
 
-    const[isLoading, setLoading] = useState(true);
 
-    setTimeout(() => {
-        setLoading(false)
-    },1500)
 
     return(
         <div className="body_wrapper screen-size">
-           {isLoading 
-           ? 
-           <Loader />
-        :
+           
         <div>
         <CustomNavbar mClass="menu_four" cClass="custom_container p0" nClass="pl_120 mr-auto ml-auto" hbtnClass="menu_cus"/>
             <AgencyBanner BannerData={BannerData}/>
             {/* <Service />
             <FooterTwo FooterData={FooterData}/> */}
         </div>
-        } 
+        
             
         </div>
     )
