@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /*------ Pages-----*/
 import DigitalMarketing from "./Pages/Digital-marketing";
 import Service from "./Pages/Service";
@@ -16,12 +16,10 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <ScrollToTopRoute exact={true} path={"/"} component={DigitalMarketing} />
-          <ScrollToTopRoute
-            path="/Digital-marketing"
-            component={DigitalMarketing}
-          />
-          {/* <ScrollToTopRoute path="/Service" component={Service} />
+          <Route exact={true} path={"/"} component={DigitalMarketing} />
+          {/* 
+          <ScrollToTopRoute path="/Digital-marketing" component={DigitalMarketing}/>
+          <ScrollToTopRoute path="/Service" component={Service} />
           <ScrollToTopRoute path="/Process" component={Process} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
           <ScrollToTopRoute component={NotFound} /> */}
