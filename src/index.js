@@ -16,7 +16,7 @@ import "./assets/responsive.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "popper.js";
 
-const loader = document.querySelector("#preloader");
+const loader = document.getElementById("preloader");
 
 // if you want to show the loader when React loads data again
 const showLoader = () => loader.classList.remove("loader--hide");
