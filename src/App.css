@@ -49,10 +49,6 @@ body{
   font-style: normal;
 }
 
-.sticky-inner-wrapper{
-  background-color: transparent !important;
-}
-
 .screen-size{
   height:100vh;
 }
