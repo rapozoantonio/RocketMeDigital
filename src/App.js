@@ -9,9 +9,9 @@ import Faq from "./Pages/Faq";
 import NotFound from "./Pages/404";
 
 class App extends Component {
-  componentDidMount() {
-    this.props.hideLoader();
-  }
+  // componentDidMount() {
+  //   this.props.hideLoader();
+  // }
   render() {
     return (
       <Router>
