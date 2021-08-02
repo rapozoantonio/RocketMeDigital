@@ -17,11 +17,11 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={DigitalMarketing} />
-          {/* <ScrollToTopRoute
+          <ScrollToTopRoute
             path="/Digital-marketing"
             component={DigitalMarketing}
           />
-          <ScrollToTopRoute path="/Service" component={Service} />
+          {/* <ScrollToTopRoute path="/Service" component={Service} />
           <ScrollToTopRoute path="/Process" component={Process} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
           <ScrollToTopRoute component={NotFound} /> */}
