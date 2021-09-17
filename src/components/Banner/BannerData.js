@@ -2,8 +2,8 @@ const BannerData = {
     AgencyText : [
         {
             id: 1,
-            btitle : 'Dados, análises e design',
-            description : 'Nós ajudamos marcas a transformar ideias em realidades lucrativas.',
+            btitle : 'Você quer mais leads e vendas?',
+            description : 'Você quer mais leads e vendas? Clique no botão abaixo se você quer transformar sua ideia em uma realidade lucrativa.',
         }
     ],
 }

@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import Reveal from "react-reveal/Reveal";
+import AboutWidget from "./FooterWidget/AboutWidget";
+import SolutionWidget from "./FooterWidget/SolutionWidget";
+import TeamWidget from "./FooterWidget/TeamWidget";
+
 class FooterTwo extends Component {
   render() {
     var { fClass } = this.props;
@@ -22,6 +26,15 @@ class FooterTwo extends Component {
                         </a>
                         <div className="widget-wrap">
                           <p className="f_400 f_p f_size_15 mb-0 l_height34">
+                            <span>Email:</span>{" "}
+                            <a
+                              href="mailto:antonio@rocketmedigital.com"
+                              className="f_400"
+                            >
+                              antonio@rocketme.digital
+                            </a>
+                          </p>
+                          <p className="f_400 f_p f_size_15 mb-0 l_height34">
                             <span>Phone:</span>{" "}
                             <a href="tel:948256347968" className="f_400">
                               +948 256 347 968
@@ -33,6 +46,8 @@ class FooterTwo extends Component {
                   </Reveal>
                 );
               })}
+
+              <TeamWidget ftitle="Quem Somos" />
             </div>
           </div>
         </div>

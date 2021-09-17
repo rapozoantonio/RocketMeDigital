@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App.js";
+import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+
 import "./assets/themify-icon/themify-icons.css";
 import "./assets/simple-line-icon/simple-line-icons.css";
 import "./assets/font-awesome/css/all.css";
@@ -16,29 +17,24 @@ import "./assets/responsive.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "popper.js";
 
-// const loader = document.getElementById("preloader");
+const loader = document.querySelector("#preloader");
 
 // if you want to show the loader when React loads data again
-// const showLoader = () => loader.classList.remove("loader--hide");
-// 
-// const hideLoader = () => loader.classList.add("loader--hide");
+const showLoader = () => loader.classList.remove("loader--hide");
 
-// setTimeout(
-//   () =>
-//     // the show/hide functions are passed as props
-//     ReactDOM.render(
-//       <App hideLoader={hideLoader} showLoader={showLoader} />,
-//       document.getElementById("root")
-//     ),
-//   1000
-// );
+const hideLoader = () => loader.classList.add("loader--hide");
+
+setTimeout(
+  () =>
+    // the show/hide functions are passed as props
+    ReactDOM.render(
+      <App hideLoader={hideLoader} showLoader={showLoader} />,
+      document.getElementById("root")
+    ),
+  1000
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-// serviceWorker.unregister();
-
-ReactDOM.render(
-         <App />,
-         document.getElementById("root")
-       )
+serviceWorker.unregister();

@@ -9,21 +9,18 @@ import Faq from "./Pages/Faq";
 import NotFound from "./Pages/404";
 
 class App extends Component {
-  // componentDidMount() {
-  //   this.props.hideLoader();
-  // }
+  componentDidMount() {
+    this.props.hideLoader();
+  }
   render() {
     return (
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={DigitalMarketing} />
-         
-          {/* 
-           <ScrollToTopRoute path="/Digital-marketing" component={DigitalMarketing}/>
           <ScrollToTopRoute path="/Service" component={Service} />
-          <ScrollToTopRoute path="/Process" component={Process} />
+          <ScrollToTopRoute path="/Processo" component={Process} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
-          <ScrollToTopRoute component={NotFound} /> */}
+          <ScrollToTopRoute component={NotFound} /> 
         </Switch>
       </Router>
     );
