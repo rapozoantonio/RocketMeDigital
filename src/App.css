@@ -56,3 +56,12 @@ body{
 .logo-img{
   height:100px !important;
 }
+
+.btn-orange{
+  background:#fc7f3b !important;
+  border:#fc7f3b !important;
+}
+
+.btn-orange:hover{
+  color:#33343c !important;
+}

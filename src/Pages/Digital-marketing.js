@@ -7,6 +7,7 @@ import FooterTwo from "../components/Footer/FooterTwo";
 import FooterData from "../components/Footer/FooterData";
 import Loader from "../components/Loader";
 
+
 const DigitalMarketing = () => {
   return (
     <div className="body_wrapper">

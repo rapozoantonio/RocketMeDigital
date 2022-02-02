@@ -24,15 +24,18 @@ const showLoader = () => loader.classList.remove("loader--hide");
 
 const hideLoader = () => loader.classList.add("loader--hide");
 
+const rootElement = document.getElementById("root");
+
 setTimeout(
   () =>
     // the show/hide functions are passed as props
-    ReactDOM.render(
+    ReactDOM.hydrate(
       <App hideLoader={hideLoader} showLoader={showLoader} />,
-      document.getElementById("root")
+      rootElement
     ),
   1000
 );
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

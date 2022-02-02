@@ -27,7 +27,7 @@ class CustomNavbar extends Component {
                 <a
                   href="https://web.whatsapp.com/send?phone=5521984080735"
                   target="_blank"
-                  className="btn_hover agency_banner_btn wow fadeInLeft btn-navbar"
+                  className="btn_hover agency_banner_btn wow fadeInLeft btn-navbar btn-orange"
                   data-wow-delay="0.5s"
                 >
                   Contato
