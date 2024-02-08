@@ -15,6 +15,11 @@ class TeamWidget extends Component {
           >
             <h3 className="f-title f_600 t_color f_size_18 mb_40">{ftitle}</h3>
             <ul className="list-unstyled f_list">
+            <li>
+                <NavLink title="Home" className="nav-link" to="/">
+                  Home
+                </NavLink>
+              </li>
               <li>
                 <NavLink title="Faq" className="nav-link" to="/Faq">
                   FAQ
@@ -26,8 +31,8 @@ class TeamWidget extends Component {
                 </NavLink>
               </li>
               <li>
-                <a title="Service" className="nav-link" href="/#Serviço">
-                  Serviço
+                <a title="Serviços" className="nav-link" href="/Serviços">
+                  Serviços
                 </a>
               </li>
             </ul>

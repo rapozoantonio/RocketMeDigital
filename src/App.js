@@ -17,7 +17,7 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={DigitalMarketing} />
-          <ScrollToTopRoute path="/Service" component={Service} />
+          <ScrollToTopRoute path="/Serviços" component={Service} />
           <ScrollToTopRoute path="/Processo" component={Process} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
           <ScrollToTopRoute component={NotFound} /> 

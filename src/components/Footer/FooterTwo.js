@@ -31,7 +31,7 @@ class FooterTwo extends Component {
                               href="mailto:antonio@rocketmedigital.com"
                               className="f_400"
                             >
-                              antonio@rocketme.digital
+                              contato@rocketme.digital
                             </a>
                           </p>
                           <p className="f_400 f_p f_size_15 mb-0 l_height34">

@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 import AgencyBanner from "../components/Banner/AgencyBanner";
 import BannerData from "../components/Banner/BannerData";
 import Service from "../components/Service/Service";
 import FooterTwo from "../components/Footer/FooterTwo";
 import FooterData from "../components/Footer/FooterData";
-import Loader from "../components/Loader";
 
 
 const DigitalMarketing = () => {

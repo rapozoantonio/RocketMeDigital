@@ -80,7 +80,7 @@ const FooterData = {
             ],
         },
     ],
-    copywrite:"Copyright ⓒ 2021",
+    copywrite:"Copyright ⓒ 2024",
     aboutLinks: [
       {
         id: 1,
