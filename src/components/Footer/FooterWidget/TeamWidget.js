@@ -31,9 +31,14 @@ class TeamWidget extends Component {
                 </NavLink>
               </li>
               <li>
-                <a title="Serviços" className="nav-link" href="/Serviços">
-                  Serviços
-                </a>
+                <NavLink title="Serviços" className="nav-link" to="/Serviços">
+                Serviços
+                </NavLink>
+              </li>
+              <li>
+                <NavLink title="Portfolio" className="nav-link" to="/Portfolio">
+                Portfolio
+                </NavLink>
               </li>
             </ul>
           </div>

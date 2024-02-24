@@ -6,6 +6,8 @@ import Service from "./Pages/Service";
 import Process from "./Pages/Process";
 import ScrollToTopRoute from "./ScrollToTopRoute";
 import Faq from "./Pages/Faq";
+import Portfoliosingle from "./Pages/Portfoliosingle";
+import Startup from "./Pages/Startup";
 import NotFound from "./Pages/404";
 
 class App extends Component {
@@ -19,7 +21,9 @@ class App extends Component {
           <ScrollToTopRoute exact={true} path={"/"} component={DigitalMarketing} />
           <ScrollToTopRoute path="/Serviços" component={Service} />
           <ScrollToTopRoute path="/Processo" component={Process} />
+          <ScrollToTopRoute path="/Portfolio" component={Portfoliosingle} />
           <ScrollToTopRoute path="/Faq" component={Faq} />
+          <ScrollToTopRoute path="/Startup" component={Startup} />
           <ScrollToTopRoute component={NotFound} /> 
         </Switch>
       </Router>
