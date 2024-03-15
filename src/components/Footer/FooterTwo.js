@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Reveal from "react-reveal/Reveal";
-import AboutWidget from "./FooterWidget/AboutWidget";
-import SolutionWidget from "./FooterWidget/SolutionWidget";
 import TeamWidget from "./FooterWidget/TeamWidget";
 
 class FooterTwo extends Component {
